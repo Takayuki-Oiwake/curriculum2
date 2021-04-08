@@ -13,7 +13,6 @@ public class Task1_4 {
 
     // 定数（アカウント情報）
     // ① 登録されている名前（USER_RNAME）とパスワード（USER_PASSWORD）を定数で定義してください。
-    private static final String USER_RNAME = "takayuki_oiwake";
     private static final String USER_RNAME = "alice";
     private static final String USER_PASSWORD = "pass";
 
