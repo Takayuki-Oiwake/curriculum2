@@ -7,6 +7,21 @@
 <title>Insert title here</title>
 </head>
 <body>
+ <%@ include file="header.jsp"%>
+	<div style="padding-top:50px; padding-bottom:50px">
+	<table>
+        <tr>
+            <th>name</th>
+            <td><input type="text" name="name" ></td>
+        </tr>
+        <tr>
+            <th>id</th>
+            <td><input type="text" name="id" ></td>
+        </tr>
+    </table>
+    </div>
 
+
+ <%@ include file="footer.jsp"%>
 </body>
 </html>
