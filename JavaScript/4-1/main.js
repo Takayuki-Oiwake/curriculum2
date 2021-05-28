@@ -28,12 +28,12 @@ var app = new Vue({
             }).length+ '/' + this.list.length;
         },
         // 問３
-        list: function() {
+        part: function() {
             var list = [];
             for(var i in this.list){
                 var todo = this.list[i];
                 if(todo.text.indexOf(this.search)!==-1){
-                    list.push(todo);
+                    list.push(serarch);
                 }
             }
             return list;
@@ -55,6 +55,9 @@ var app = new Vue({
             this.list = this.list.filter(function(todo) {
                 return !todo.isChecked;
             });
-        }
+        },
+        addTask: function(){
+            
+        },
     }
 });

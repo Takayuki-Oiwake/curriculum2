@@ -15,6 +15,11 @@
         <button v-on:click="deleteBtn()">削除</button><hr>
         <!-- 問3 -->
         <input type="text" v-model="search" placeholder="キーワードを入力して">
+        <!-- 部分一致したタスクを表示 -->
+        <ul v-if="search==''">{{part}}</ul>
+        <!-- 追加したタスクを全表示 -->
+        <ul v-else>{{addTask}}</ul>
+        
         <ul v-for="todo in list">
             <li>
                 <span v-bind:class="{ done: todo.isChecked }">
