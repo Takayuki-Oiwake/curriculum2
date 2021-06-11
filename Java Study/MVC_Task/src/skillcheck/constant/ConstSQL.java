@@ -22,12 +22,10 @@ public final class ConstSQL {
 
     // FIXME Step-2: 以下のSELECT文、INSERT文、UPDATE文を記述しなさい
     // Tips: 更新値や条件値には「?」を使用してください
-    private static final String SQL_SELECT = "select * from employee where id=? and password=?";
-    private static final String SQL_UPDATE = "update employee set login_time=? where id=?";
-    private static final String SQL_INSERT = "insert into employee values(login_time=? where id=?)";
+
     // FIXME Step-2-1: [SQL-SELECT] 社員情報テーブルより、作成日時、更新日時、削除フラグを除いたカラムを取得するクエリを作成しなさい。
     /** 社員情報一覧取得用クエリ: 取得カラム + 取得元テーブル */
-    public static final String SELECT_BASE = "select EmpId,Password,Name,Mail,ProgramingLanguage,Comment from Employee ";
+    public static final String SELECT_BASE = "select EmpId,Password,Name,Mail,ProgramingLanguage,Comment from Employee";
     /** 社員情報一覧取得用クエリ: 削除されていない社員情報を社員番号順に取得 */
     public static final String SELECT_BY_DELETE_FLG_ZERO = " WHERE deleteFlg = '0' ORDER BY empId";
     /** 社員番号を条件とするクエリ: 完全一致 */

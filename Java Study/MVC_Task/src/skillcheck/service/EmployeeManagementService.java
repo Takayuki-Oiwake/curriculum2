@@ -1,5 +1,6 @@
 package skillcheck.service;
 
+import java.sql.PreparedStatement;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -13,10 +14,10 @@ import skillcheck.constant.ConstMessage;
 import skillcheck.constant.ConstSQL;
 import skillcheck.dao.EmployeeDao;
 import skillcheck.exception.MVCException;
+import skillcheck.logger.Logger;
 
 // FIXME Step-5-1: 「EmployeeBean, ResponseBean, ConstMessage, ConstSQL, EmployeeDao, SC5Exception, Logger」をインポートしなさい。
 // [ここへ記述]
-
 /**
  * 社員情報管理サービス
  * <pre>
@@ -186,7 +187,10 @@ public final class EmployeeManagementService extends BaseService implements Empl
                 // Tips1: ループ文を使用すること（正解は複数パターンあります）
                 // Tips2: 格納先はローカル変数のempとすること
                 // [ここへ記述]
-
+            	List<EmployeeBean> list = new ArrayList<EmployeeBean>(0);
+            	for (int i = 0; i < list.size(); i++) {
+            	emp=list.get(i);
+            	}
                 if (Objects.nonNull(emp)) {
                     Logger.log(new Throwable(), "pEmployeeBeanList[0].empId = " + emp.getEmpId());
 
@@ -197,7 +201,7 @@ public final class EmployeeManagementService extends BaseService implements Empl
                     // 2. 1で作成したオブジェクトをpreparedStatementへ格納
                     // Tips: sbQueryは、sbQuery.toString()でStringへ変換
                     // [ここへ記述]
-
+                    PreparedStatement preparedStatement = connection.prepareStatement(ConstSQL.SELECT_BY_EMPID);
                     // LIKEを使用するため、パラメータを編集
                     final String empId = ExecuteCase.FIND_BY_EMPID_WITH_LIKE.equals(eCase)
                             ? ("%" + emp.getEmpId() + "%")
@@ -206,10 +210,10 @@ public final class EmployeeManagementService extends BaseService implements Empl
                     // FIXME Step-5-6: preparedStatementに適切なパラメーターをセットしなさい。
                     // Tips: パラメータをセットするインデックスに注意
                     // [ここへ記述]
-
+                    preparedStatement.setInt(1,2356);
                     // FIXME Step-5-7: preparedStatementよりSQL(SELECT文)を実行し、resultSetへ結果を格納しなさい。
                     // [ここへ記述]
-
+                    resultSet = preparedStatement.executeQuery(ConstSQL.SELECT_BY_EMPID);
                     Logger.log(new Throwable(), "SQL: " +  this.preparedStatement.toString());
                 }
                 break;
