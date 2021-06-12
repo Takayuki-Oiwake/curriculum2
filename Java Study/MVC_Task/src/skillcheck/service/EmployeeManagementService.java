@@ -187,9 +187,9 @@ public final class EmployeeManagementService extends BaseService implements Empl
                 // Tips1: ループ文を使用すること（正解は複数パターンあります）
                 // Tips2: 格納先はローカル変数のempとすること
                 // [ここへ記述]
-            	List<EmployeeBean> list = new ArrayList<EmployeeBean>(0);
-            	for (int i = 0; i < list.size(); i++) {
-            	emp=list.get(i);
+
+            	for (EmployeeBean emp1 : pEmployeeBeanList) {
+            	emp=emp1;
             	}
                 if (Objects.nonNull(emp)) {
                     Logger.log(new Throwable(), "pEmployeeBeanList[0].empId = " + emp.getEmpId());
@@ -210,7 +210,7 @@ public final class EmployeeManagementService extends BaseService implements Empl
                     // FIXME Step-5-6: preparedStatementに適切なパラメーターをセットしなさい。
                     // Tips: パラメータをセットするインデックスに注意
                     // [ここへ記述]
-                    preparedStatement.setInt(1,2356);
+                    preparedStatement.setString(1, empId);
                     // FIXME Step-5-7: preparedStatementよりSQL(SELECT文)を実行し、resultSetへ結果を格納しなさい。
                     // [ここへ記述]
                     resultSet = preparedStatement.executeQuery(ConstSQL.SELECT_BY_EMPID);

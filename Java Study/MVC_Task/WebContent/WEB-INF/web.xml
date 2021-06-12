@@ -10,7 +10,7 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>employee</servlet-name>
-		<url-pattern>/employee</url-pattern>
+		<url-pattern>/search</url-pattern>
 	</servlet-mapping>
 	<session-config>
 		<session-timeout>30</session-timeout>

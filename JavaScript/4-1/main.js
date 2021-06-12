@@ -29,14 +29,14 @@ var app = new Vue({
         },
         // 問３
         part: function() {
-            var list = [];
+            var filterList = [];
             for(var i in this.list){
                 var todo = this.list[i];
                 if(todo.text.indexOf(this.search)!==-1){
-                    list.push(serarch);
+                    filterList.push(todo);
                 }
             }
-            return list;
+            return filterList;
         },    
         
     },
@@ -56,6 +56,8 @@ var app = new Vue({
                 return !todo.isChecked;
             });
         },
+
+        // 問3
         addTask: function(){
             
         },
