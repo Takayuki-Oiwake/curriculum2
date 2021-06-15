@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+/Users/taka2356/LetsEngineer/curriculum/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3974341223.index
+/MVC_Task/src
