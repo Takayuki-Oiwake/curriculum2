@@ -23,6 +23,5 @@ INDEX VERSION 1.131+/Users/taka2356/LetsEngineer/curriculum/.metadata/.plugins/o
 603510079.index
 1205808566.index
 4284809168.index
-2841369010.index
 2239138454.index
 2400062303.index
