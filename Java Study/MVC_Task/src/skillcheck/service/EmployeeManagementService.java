@@ -201,7 +201,7 @@ public final class EmployeeManagementService extends BaseService implements Empl
                     // 2. 1で作成したオブジェクトをpreparedStatementへ格納
                     // Tips: sbQueryは、sbQuery.toString()でStringへ変換
                     // [ここへ記述]
-                    PreparedStatement preparedStatement = connection.prepareStatement(ConstSQL.SELECT_BY_EMPID);
+                    PreparedStatement preparedStatement = connection.prepareStatement(ConstSQL.SELECT_BASE);
                     // LIKEを使用するため、パラメータを編集
                     final String empId = ExecuteCase.FIND_BY_EMPID_WITH_LIKE.equals(eCase)
                             ? ("%" + emp.getEmpId() + "%")
@@ -213,7 +213,7 @@ public final class EmployeeManagementService extends BaseService implements Empl
                     preparedStatement.setString(1, empId);
                     // FIXME Step-5-7: preparedStatementよりSQL(SELECT文)を実行し、resultSetへ結果を格納しなさい。
                     // [ここへ記述]
-                    resultSet = preparedStatement.executeQuery(ConstSQL.SELECT_BY_EMPID);
+                    resultSet = preparedStatement.executeQuery(ConstSQL.SELECT_BASE);
                     Logger.log(new Throwable(), "SQL: " +  this.preparedStatement.toString());
                 }
                 break;
