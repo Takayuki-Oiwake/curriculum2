@@ -1,0 +1,12 @@
+INDEX VERSION 1.4+/Users/taka2356/LetsEngineer/curriculum/Java Study/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+681154100.index
+1707337428.index
+4222055287.index
+3949128619.index
+322483587.index
+311043671.index
+2841369010.index
+1963233828.index
+238209650.index
+1205808566.index
+2109488832.index

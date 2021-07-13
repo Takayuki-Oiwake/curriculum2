@@ -1,0 +1,2481 @@
+!SESSION 2021-06-23 18:54:33.519 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.1
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/taka2356/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/taka2356/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2021-06-23 18:54:36.739
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-23 18:54:36.739
+!MESSAGE COMMAND+CTRL+F の競合が発生しました:
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(com.xored.glance.commands.open,Glance を開く,
+		Glance 検索パネルを開く,
+		Category(com.xored.glance.ui.commands,Glance,Glance 検索コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@51b41740,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.window.fullscreenmode,全画面の切り替え,
+		全画面と通常のウィンドウを切り替えます,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@70cac22a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+
+!ENTRY org.eclipse.ui 2 0 2021-06-23 18:54:36.973
+!MESSAGE 'org.eclipse.ui.commandImages' 拡張ポイントからの画像解析中の警告です。
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 18:54:36.973
+!MESSAGE 未定義コマンドへバインドできません: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY org.eclipse.jface 2 0 2021-06-23 18:54:40.505
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-23 18:54:40.505
+!MESSAGE COMMAND+SHIFT+T の競合が発生しました:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@408f3054,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2a64cb1f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-23 18:54:40.505
+!MESSAGE COMMAND+SHIFT+- の競合が発生しました:
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3644d12a,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,ja,,system)
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3644d12a,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui 2 2 2021-06-23 18:55:21.224
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-06-23 18:55:25.078 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.1
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/taka2356/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/taka2356/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2021-06-23 18:55:27.514
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-23 18:55:27.514
+!MESSAGE COMMAND+CTRL+F の競合が発生しました:
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(com.xored.glance.commands.open,Glance を開く,
+		Glance 検索パネルを開く,
+		Category(com.xored.glance.ui.commands,Glance,Glance 検索コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5f26cb8b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.window.fullscreenmode,全画面の切り替え,
+		全画面と通常のウィンドウを切り替えます,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3a2a56f6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+
+!ENTRY org.eclipse.jface 2 0 2021-06-23 18:55:30.184
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-23 18:55:30.184
+!MESSAGE COMMAND+SHIFT+T の競合が発生しました:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14bbfdee,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@139a97e7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-23 18:55:30.184
+!MESSAGE COMMAND+SHIFT+- の競合が発生しました:
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@18bd3135,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,ja,,system)
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@18bd3135,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui 2 2 2021-06-23 18:55:41.972
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-06-23 18:56:01.136 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.1
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/taka2356/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/taka2356/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2021-06-23 18:56:03.298
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-23 18:56:03.298
+!MESSAGE COMMAND+CTRL+F の競合が発生しました:
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(com.xored.glance.commands.open,Glance を開く,
+		Glance 検索パネルを開く,
+		Category(com.xored.glance.ui.commands,Glance,Glance 検索コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@15a8bbe5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.window.fullscreenmode,全画面の切り替え,
+		全画面と通常のウィンドウを切り替えます,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3369e2ce,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+
+!ENTRY org.eclipse.jface 2 0 2021-06-23 18:56:05.923
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-23 18:56:05.923
+!MESSAGE COMMAND+SHIFT+T の競合が発生しました:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2b1f0667,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6000ca67,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-23 18:56:05.924
+!MESSAGE COMMAND+SHIFT+- の競合が発生しました:
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@27e25c2f,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,ja,,system)
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@27e25c2f,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.jface 2 0 2021-06-23 18:56:52.946
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-23 18:56:52.946
+!MESSAGE ALT+CTRL+T の競合が発生しました:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,プロパティーの表示,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@47d41516,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,選択されたローカル・ターミナルを開く,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,ターミナル・コマンド,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1040bcfb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.debug.core 4 2 2021-06-23 18:56:54.323
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4893)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.SWT.error(SWT.java:4779)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:810)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:597)
+	at org.eclipse.swt.widgets.Tree.getSelection(Tree.java:1846)
+	at org.eclipse.jface.viewers.TreeViewer.getSelection(TreeViewer.java:231)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSelection(AbstractTreeViewer.java:2990)
+	at com.eclipserunner.views.impl.RunnerViewSelection.getSelection(RunnerViewSelection.java:111)
+	at com.eclipserunner.views.impl.RunnerViewSelection.firstNodeHasType(RunnerViewSelection.java:40)
+	at com.eclipserunner.views.impl.RunnerView.getLaunchNode(RunnerView.java:459)
+	at com.eclipserunner.views.impl.RunnerView.updateRunMenu(RunnerView.java:585)
+	at com.eclipserunner.views.impl.RunnerView.modelChanged(RunnerView.java:522)
+	at com.eclipserunner.model.impl.RunnerModel.fireModelChangedEvent(RunnerModel.java:110)
+	at com.eclipserunner.model.impl.RunnerModel.categoryNodeChanged(RunnerModel.java:130)
+	at com.eclipserunner.model.impl.CategoryNode.fireCategoryNodeChangedEvent(CategoryNode.java:94)
+	at com.eclipserunner.model.impl.CategoryNode.add(CategoryNode.java:63)
+	at com.eclipserunner.model.common.CategoryDelegatingDecorator.add(CategoryDelegatingDecorator.java:30)
+	at com.eclipserunner.model.adapters.RunnerModelLaunchConfigurationListenerAdapter.launchConfigurationAdded(RunnerModelLaunchConfigurationListenerAdapter.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2101)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:370)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1503)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 120 2021-06-23 18:56:54.334
+!MESSAGE 起動構成変更通知中に例外が発生しました。
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4893)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.SWT.error(SWT.java:4779)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:810)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:597)
+	at org.eclipse.swt.widgets.Tree.getSelection(Tree.java:1846)
+	at org.eclipse.jface.viewers.TreeViewer.getSelection(TreeViewer.java:231)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSelection(AbstractTreeViewer.java:2990)
+	at com.eclipserunner.views.impl.RunnerViewSelection.getSelection(RunnerViewSelection.java:111)
+	at com.eclipserunner.views.impl.RunnerViewSelection.firstNodeHasType(RunnerViewSelection.java:40)
+	at com.eclipserunner.views.impl.RunnerView.getLaunchNode(RunnerView.java:459)
+	at com.eclipserunner.views.impl.RunnerView.updateRunMenu(RunnerView.java:585)
+	at com.eclipserunner.views.impl.RunnerView.modelChanged(RunnerView.java:522)
+	at com.eclipserunner.model.impl.RunnerModel.fireModelChangedEvent(RunnerModel.java:110)
+	at com.eclipserunner.model.impl.RunnerModel.categoryNodeChanged(RunnerModel.java:130)
+	at com.eclipserunner.model.impl.CategoryNode.fireCategoryNodeChangedEvent(CategoryNode.java:94)
+	at com.eclipserunner.model.impl.CategoryNode.add(CategoryNode.java:63)
+	at com.eclipserunner.model.common.CategoryDelegatingDecorator.add(CategoryDelegatingDecorator.java:30)
+	at com.eclipserunner.model.adapters.RunnerModelLaunchConfigurationListenerAdapter.launchConfigurationAdded(RunnerModelLaunchConfigurationListenerAdapter.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2101)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:370)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1503)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2021-06-23 18:56:54.343
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4893)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.SWT.error(SWT.java:4779)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:810)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:597)
+	at org.eclipse.swt.widgets.Tree.getSelection(Tree.java:1846)
+	at org.eclipse.jface.viewers.TreeViewer.getSelection(TreeViewer.java:231)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSelection(AbstractTreeViewer.java:2990)
+	at com.eclipserunner.views.impl.RunnerViewSelection.getSelection(RunnerViewSelection.java:111)
+	at com.eclipserunner.views.impl.RunnerViewSelection.firstNodeHasType(RunnerViewSelection.java:40)
+	at com.eclipserunner.views.impl.RunnerView.getLaunchNode(RunnerView.java:459)
+	at com.eclipserunner.views.impl.RunnerView.updateRunMenu(RunnerView.java:585)
+	at com.eclipserunner.views.impl.RunnerView.modelChanged(RunnerView.java:522)
+	at com.eclipserunner.model.impl.RunnerModel.fireModelChangedEvent(RunnerModel.java:110)
+	at com.eclipserunner.model.impl.RunnerModel.categoryNodeChanged(RunnerModel.java:130)
+	at com.eclipserunner.model.impl.CategoryNode.fireCategoryNodeChangedEvent(CategoryNode.java:94)
+	at com.eclipserunner.model.impl.CategoryNode.add(CategoryNode.java:63)
+	at com.eclipserunner.model.common.CategoryDelegatingDecorator.add(CategoryDelegatingDecorator.java:30)
+	at com.eclipserunner.model.adapters.RunnerModelLaunchConfigurationListenerAdapter.launchConfigurationAdded(RunnerModelLaunchConfigurationListenerAdapter.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2101)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:370)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1503)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 120 2021-06-23 18:56:54.344
+!MESSAGE 起動構成変更通知中に例外が発生しました。
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4893)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.SWT.error(SWT.java:4779)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:810)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:597)
+	at org.eclipse.swt.widgets.Tree.getSelection(Tree.java:1846)
+	at org.eclipse.jface.viewers.TreeViewer.getSelection(TreeViewer.java:231)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSelection(AbstractTreeViewer.java:2990)
+	at com.eclipserunner.views.impl.RunnerViewSelection.getSelection(RunnerViewSelection.java:111)
+	at com.eclipserunner.views.impl.RunnerViewSelection.firstNodeHasType(RunnerViewSelection.java:40)
+	at com.eclipserunner.views.impl.RunnerView.getLaunchNode(RunnerView.java:459)
+	at com.eclipserunner.views.impl.RunnerView.updateRunMenu(RunnerView.java:585)
+	at com.eclipserunner.views.impl.RunnerView.modelChanged(RunnerView.java:522)
+	at com.eclipserunner.model.impl.RunnerModel.fireModelChangedEvent(RunnerModel.java:110)
+	at com.eclipserunner.model.impl.RunnerModel.categoryNodeChanged(RunnerModel.java:130)
+	at com.eclipserunner.model.impl.CategoryNode.fireCategoryNodeChangedEvent(CategoryNode.java:94)
+	at com.eclipserunner.model.impl.CategoryNode.add(CategoryNode.java:63)
+	at com.eclipserunner.model.common.CategoryDelegatingDecorator.add(CategoryDelegatingDecorator.java:30)
+	at com.eclipserunner.model.adapters.RunnerModelLaunchConfigurationListenerAdapter.launchConfigurationAdded(RunnerModelLaunchConfigurationListenerAdapter.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2101)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:370)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1503)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jface 2 0 2021-06-23 18:57:34.073
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-23 18:57:34.073
+!MESSAGE COMMAND+- の競合が発生しました:
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.gef.zoom_out,ズームアウト,
+		ズームアウト,
+		Category(org.eclipse.gef.category.view,ビュー,ビュー,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@30cdb46,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.zoomOut,ズームアウト,
+		テキストのズーム・アウト - テキスト・エディターのデフォルト・フォント・サイズを小さくします,
+		Category(org.eclipse.ui.category.textEditor,テキスト編集,テキスト編集コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@508189cc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(junit.extensions.eclipse.quick.pde.command.PDEJUnitRunAction,JUnit Plug-in テスト,
+		PDE JUnitでテストを実行します．,
+		Category(junit.extensions.eclipse.quick.command.category,Quick JUnit,Quick JUnitアクション,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@15f0d6c7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2021-06-23 18:58:00.408
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2021-06-23 18:58:27.458
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2021-06-23 18:58:27.458
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.debug.core 4 2 2021-06-23 18:58:28.636
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4893)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.SWT.error(SWT.java:4779)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:810)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:597)
+	at org.eclipse.swt.widgets.Tree.getSelection(Tree.java:1846)
+	at org.eclipse.jface.viewers.TreeViewer.getSelection(TreeViewer.java:231)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSelection(AbstractTreeViewer.java:2990)
+	at com.eclipserunner.views.impl.RunnerViewSelection.getSelection(RunnerViewSelection.java:111)
+	at com.eclipserunner.views.impl.RunnerViewSelection.firstNodeHasType(RunnerViewSelection.java:40)
+	at com.eclipserunner.views.impl.RunnerView.getLaunchNode(RunnerView.java:459)
+	at com.eclipserunner.views.impl.RunnerView.updateRunMenu(RunnerView.java:585)
+	at com.eclipserunner.views.impl.RunnerView.modelChanged(RunnerView.java:522)
+	at com.eclipserunner.model.impl.RunnerModel.fireModelChangedEvent(RunnerModel.java:110)
+	at com.eclipserunner.model.impl.RunnerModel.categoryNodeChanged(RunnerModel.java:130)
+	at com.eclipserunner.model.impl.CategoryNode.fireCategoryNodeChangedEvent(CategoryNode.java:94)
+	at com.eclipserunner.model.impl.CategoryNode.add(CategoryNode.java:63)
+	at com.eclipserunner.model.common.CategoryDelegatingDecorator.add(CategoryDelegatingDecorator.java:30)
+	at com.eclipserunner.model.adapters.RunnerModelLaunchConfigurationListenerAdapter.launchConfigurationAdded(RunnerModelLaunchConfigurationListenerAdapter.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2101)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:374)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.wst.server.core.internal.Server.getLaunchConfiguration(Server.java:1772)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3561)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3504)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:379)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 120 2021-06-23 18:58:28.637
+!MESSAGE 起動構成変更通知中に例外が発生しました。
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4893)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.SWT.error(SWT.java:4779)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:810)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:597)
+	at org.eclipse.swt.widgets.Tree.getSelection(Tree.java:1846)
+	at org.eclipse.jface.viewers.TreeViewer.getSelection(TreeViewer.java:231)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSelection(AbstractTreeViewer.java:2990)
+	at com.eclipserunner.views.impl.RunnerViewSelection.getSelection(RunnerViewSelection.java:111)
+	at com.eclipserunner.views.impl.RunnerViewSelection.firstNodeHasType(RunnerViewSelection.java:40)
+	at com.eclipserunner.views.impl.RunnerView.getLaunchNode(RunnerView.java:459)
+	at com.eclipserunner.views.impl.RunnerView.updateRunMenu(RunnerView.java:585)
+	at com.eclipserunner.views.impl.RunnerView.modelChanged(RunnerView.java:522)
+	at com.eclipserunner.model.impl.RunnerModel.fireModelChangedEvent(RunnerModel.java:110)
+	at com.eclipserunner.model.impl.RunnerModel.categoryNodeChanged(RunnerModel.java:130)
+	at com.eclipserunner.model.impl.CategoryNode.fireCategoryNodeChangedEvent(CategoryNode.java:94)
+	at com.eclipserunner.model.impl.CategoryNode.add(CategoryNode.java:63)
+	at com.eclipserunner.model.common.CategoryDelegatingDecorator.add(CategoryDelegatingDecorator.java:30)
+	at com.eclipserunner.model.adapters.RunnerModelLaunchConfigurationListenerAdapter.launchConfigurationAdded(RunnerModelLaunchConfigurationListenerAdapter.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2101)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:374)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.wst.server.core.internal.Server.getLaunchConfiguration(Server.java:1772)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3561)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3504)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:379)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2021-06-23 18:59:28.238 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.1
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/taka2356/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/taka2356/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2021-06-23 18:59:31.506
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-23 18:59:31.506
+!MESSAGE COMMAND+CTRL+F の競合が発生しました:
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(com.xored.glance.commands.open,Glance を開く,
+		Glance 検索パネルを開く,
+		Category(com.xored.glance.ui.commands,Glance,Glance 検索コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@104cf647,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.window.fullscreenmode,全画面の切り替え,
+		全画面と通常のウィンドウを切り替えます,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7488c183,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+
+!ENTRY org.eclipse.jface 2 0 2021-06-23 18:59:35.240
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-23 18:59:35.240
+!MESSAGE COMMAND+SHIFT+T の競合が発生しました:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1925b113,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@eaa901a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-23 18:59:35.240
+!MESSAGE COMMAND+SHIFT+- の競合が発生しました:
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2f053ff3,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,ja,,system)
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2f053ff3,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.jface 2 0 2021-06-23 18:59:42.317
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-23 18:59:42.317
+!MESSAGE COMMAND+- の競合が発生しました:
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.gef.zoom_out,ズームアウト,
+		ズームアウト,
+		Category(org.eclipse.gef.category.view,ビュー,ビュー,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6e5d2207,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.zoomOut,ズームアウト,
+		テキストのズーム・アウト - テキスト・エディターのデフォルト・フォント・サイズを小さくします,
+		Category(org.eclipse.ui.category.textEditor,テキスト編集,テキスト編集コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5f6ef272,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(junit.extensions.eclipse.quick.pde.command.PDEJUnitRunAction,JUnit Plug-in テスト,
+		PDE JUnitでテストを実行します．,
+		Category(junit.extensions.eclipse.quick.command.category,Quick JUnit,Quick JUnitアクション,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@582a1e4e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2021-06-23 18:59:42.638
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2021-06-23 18:59:42.638
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui 2 2 2021-06-23 19:00:12.010
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-06-23 20:42:01.795 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.1
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/taka2356/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/taka2356/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2021-06-23 20:42:10.053
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-23 20:42:10.053
+!MESSAGE COMMAND+CTRL+F の競合が発生しました:
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(com.xored.glance.commands.open,Glance を開く,
+		Glance 検索パネルを開く,
+		Category(com.xored.glance.ui.commands,Glance,Glance 検索コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@160e45c8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.window.fullscreenmode,全画面の切り替え,
+		全画面と通常のウィンドウを切り替えます,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7f9dbe11,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+
+!ENTRY org.eclipse.jface 2 0 2021-06-23 20:42:13.850
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-23 20:42:13.850
+!MESSAGE COMMAND+SHIFT+T の競合が発生しました:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@730c9287,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@530e500c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-23 20:42:13.850
+!MESSAGE COMMAND+SHIFT+- の競合が発生しました:
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c3b4de1,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,ja,,system)
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c3b4de1,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.jface 2 0 2021-06-23 20:42:20.071
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-23 20:42:20.071
+!MESSAGE COMMAND+- の競合が発生しました:
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.gef.zoom_out,ズームアウト,
+		ズームアウト,
+		Category(org.eclipse.gef.category.view,ビュー,ビュー,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@72f9194d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.zoomOut,ズームアウト,
+		テキストのズーム・アウト - テキスト・エディターのデフォルト・フォント・サイズを小さくします,
+		Category(org.eclipse.ui.category.textEditor,テキスト編集,テキスト編集コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@146fff56,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(junit.extensions.eclipse.quick.pde.command.PDEJUnitRunAction,JUnit Plug-in テスト,
+		PDE JUnitでテストを実行します．,
+		Category(junit.extensions.eclipse.quick.command.category,Quick JUnit,Quick JUnitアクション,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@270ba731,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2021-06-23 20:42:20.123
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2021-06-23 20:42:20.124
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui 2 2 2021-06-23 20:42:46.317
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:19.346
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:19.346
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6553527e[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=1006)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:19.350
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:19.383
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:21.839
+!MESSAGE 起動から初期化までの Boot LS 起動時間: 2474ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.115
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fhAogdQHisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.121
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.124
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.125
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.125
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fhAogdQH => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.128
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.132
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.132
+!MESSAGE buffering callback sts4.classpath.fhAogdQH 2-1 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.133
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.133
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.134
+!MESSAGE buffering callback sts4.classpath.fhAogdQH 2-2 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.134
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.134
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.134
+!MESSAGE buffering callback sts4.classpath.fhAogdQH 2-3 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.135
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.135
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.135
+!MESSAGE buffering callback sts4.classpath.fhAogdQH 2-4 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.136
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.136
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.136
+!MESSAGE buffering callback sts4.classpath.fhAogdQH 2-5 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.137
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.137
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.138
+!MESSAGE buffering callback sts4.classpath.fhAogdQH 2-6 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.138
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.139
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.139
+!MESSAGE buffering callback sts4.classpath.fhAogdQH 4-1 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.139
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.141
+!MESSAGE classpath=30 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.142
+!MESSAGE buffering callback sts4.classpath.fhAogdQH 4-2 false 30
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.142
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.143
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.143
+!MESSAGE buffering callback sts4.classpath.fhAogdQH 4-4 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.144
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.144
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.144
+!MESSAGE buffering callback sts4.classpath.fhAogdQH Check2 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.145
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.146
+!MESSAGE classpath=30 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.146
+!MESSAGE buffering callback sts4.classpath.fhAogdQH Check3 false 30
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.147
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.149
+!MESSAGE classpath=32 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.149
+!MESSAGE buffering callback sts4.classpath.fhAogdQH Check4 false 31
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.149
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.150
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.151
+!MESSAGE buffering callback sts4.classpath.fhAogdQH EmployeeBean.java false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.151
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.153
+!MESSAGE classpath=30 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.153
+!MESSAGE buffering callback sts4.classpath.fhAogdQH HelloServlet false 30
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.153
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.155
+!MESSAGE classpath=32 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.155
+!MESSAGE buffering callback sts4.classpath.fhAogdQH MVC_Task false 31
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.156
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.156
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.156
+!MESSAGE buffering callback sts4.classpath.fhAogdQH Project false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.157
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.157
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.157
+!MESSAGE buffering callback sts4.classpath.fhAogdQH chapter1 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.157
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.158
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.158
+!MESSAGE buffering callback sts4.classpath.fhAogdQH demo false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.159
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.160
+!MESSAGE classpath=30 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.160
+!MESSAGE buffering callback sts4.classpath.fhAogdQH jspTest false 30
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.160
+!MESSAGE executing callback sts4.classpath.fhAogdQH 19 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:22.716
+!MESSAGE executing callback sts4.classpath.fhAogdQH SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:25.211
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.fhAogdQH
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:25.211
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.fhAogdQH
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:25.212
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-23 20:43:25.212
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.fhAogdQH => OK
+!SESSION 2021-06-25 13:38:51.701 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.1
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/taka2356/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/taka2356/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2021-06-25 13:38:57.387
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-25 13:38:57.387
+!MESSAGE COMMAND+CTRL+F の競合が発生しました:
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(com.xored.glance.commands.open,Glance を開く,
+		Glance 検索パネルを開く,
+		Category(com.xored.glance.ui.commands,Glance,Glance 検索コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7f9dbe11,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.window.fullscreenmode,全画面の切り替え,
+		全画面と通常のウィンドウを切り替えます,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@17e8caf2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+
+!ENTRY org.eclipse.jface 2 0 2021-06-25 13:39:03.133
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-25 13:39:03.133
+!MESSAGE COMMAND+SHIFT+T の競合が発生しました:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@730c9287,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@530e500c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-25 13:39:03.133
+!MESSAGE COMMAND+SHIFT+- の競合が発生しました:
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c3b4de1,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,ja,,system)
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c3b4de1,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2021-06-25 13:39:09.451
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2021-06-25 13:39:09.452
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.jface 2 0 2021-06-25 13:39:10.121
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-25 13:39:10.121
+!MESSAGE ALT+CTRL+T の競合が発生しました:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,プロパティーの表示,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6bc5c64,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,選択されたローカル・ターミナルを開く,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,ターミナル・コマンド,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@55023ead,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2021-06-25 13:44:19.865
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-06-25 13:50:15.531 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.1
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/taka2356/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data /Users/taka2356/LetsEngineer/curriculum/JavaStudy -product org.eclipse.epp.package.jee.product -keyring /Users/taka2356/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2021-06-25 13:50:20.572
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-25 13:50:20.572
+!MESSAGE COMMAND+CTRL+F の競合が発生しました:
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(com.xored.glance.commands.open,Glance を開く,
+		Glance 検索パネルを開く,
+		Category(com.xored.glance.ui.commands,Glance,Glance 検索コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4bc41565,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.window.fullscreenmode,全画面の切り替え,
+		全画面と通常のウィンドウを切り替えます,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@8dedec8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+
+!ENTRY org.eclipse.jface 2 0 2021-06-25 13:50:23.328
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-25 13:50:23.328
+!MESSAGE COMMAND+SHIFT+T の競合が発生しました:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@63541960,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d43c881,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-25 13:50:23.328
+!MESSAGE COMMAND+SHIFT+- の競合が発生しました:
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@467625e3,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,ja,,system)
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@467625e3,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2021-06-25 13:50:29.271
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2021-06-25 13:50:29.271
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui 2 2 2021-06-25 13:51:49.072
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2021-06-25 13:51:49.236
+!MESSAGE Socket closed で http://download.oracle.com/otn_software/oepe/library/oracle-maf-2.3.0.1-rt/p2.index への接続に失敗しました。0 の再試行を開始しました
+!STACK 0
+javax.net.ssl.SSLException: Socket closed
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:369)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:312)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:307)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1690)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1064)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1003)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:995)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:991)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:976)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1444)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1048)
+	... 21 more
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 0 2021-06-25 13:51:49.447
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.metadata.repository.simpleRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getHttpClientFactory(Activator.java:241)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getBrowseHttpClient(Activator.java:266)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:249)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:276)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:230)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 0 2021-06-25 13:51:49.462
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.metadata.repository.compositeRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getHttpClientFactory(Activator.java:241)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getBrowseHttpClient(Activator.java:266)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:249)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:276)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:230)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.getLocalFile(CompositeMetadataRepositoryFactory.java:77)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:100)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2021-06-25 13:51:49.465
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Error while reading from repository: http://download.oracle.com/otn_software/oepe/library/oracle-maf-2.3.0.1-rt/site.xml。
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadActualSiteFile(UpdateSite.java:255)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.load(UpdateSite.java:155)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:108)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:62)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2021-06-25 13:51:49.466
+!MESSAGE Error while reading from repository: http://download.oracle.com/otn_software/oepe/library/oracle-maf-2.3.0.1-rt/site.xml。
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 0 2021-06-25 13:51:49.467
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.metadata.repository.simpleRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getHttpClientFactory(Activator.java:241)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getBrowseHttpClient(Activator.java:266)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:249)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:276)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:230)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 0 2021-06-25 13:51:49.468
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.metadata.repository.compositeRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getHttpClientFactory(Activator.java:241)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getBrowseHttpClient(Activator.java:266)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:249)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:276)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:230)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.getLocalFile(CompositeMetadataRepositoryFactory.java:77)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:100)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2021-06-25 13:51:49.471
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Error while reading from repository: http://download.oracle.com/otn_software/oepe/library/oracle-maf-2.3.0.0.1-examples/site.xml。
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadActualSiteFile(UpdateSite.java:255)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.load(UpdateSite.java:155)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:108)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:62)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2021-06-25 13:51:49.471
+!MESSAGE Error while reading from repository: http://download.oracle.com/otn_software/oepe/library/oracle-maf-2.3.0.0.1-examples/site.xml。
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 0 2021-06-25 13:51:49.472
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.metadata.repository.simpleRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getHttpClientFactory(Activator.java:241)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getBrowseHttpClient(Activator.java:266)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:249)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:276)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:230)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 0 2021-06-25 13:51:49.474
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.metadata.repository.compositeRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getHttpClientFactory(Activator.java:241)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getBrowseHttpClient(Activator.java:266)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:249)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:276)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:230)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.getLocalFile(CompositeMetadataRepositoryFactory.java:77)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:100)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2021-06-25 13:51:49.477
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Error while reading from repository: http://download.oracle.com/otn_software/oepe/library/oracle-maf-2.3.1-rt/site.xml。
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadActualSiteFile(UpdateSite.java:255)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.load(UpdateSite.java:155)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:108)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:62)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2021-06-25 13:51:49.477
+!MESSAGE Error while reading from repository: http://download.oracle.com/otn_software/oepe/library/oracle-maf-2.3.1-rt/site.xml。
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 0 2021-06-25 13:51:49.478
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.metadata.repository.simpleRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getHttpClientFactory(Activator.java:241)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getBrowseHttpClient(Activator.java:266)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:249)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:276)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:230)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 0 2021-06-25 13:51:49.480
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.metadata.repository.compositeRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getHttpClientFactory(Activator.java:241)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getBrowseHttpClient(Activator.java:266)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:249)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:276)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:230)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.getLocalFile(CompositeMetadataRepositoryFactory.java:77)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:100)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2021-06-25 13:51:49.483
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Error while reading from repository: http://download.oracle.com/otn_software/oepe/library/oracle-maf-2.3.1-examples/site.xml。
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadActualSiteFile(UpdateSite.java:255)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.load(UpdateSite.java:155)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:108)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:62)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2021-06-25 13:51:49.483
+!MESSAGE Error while reading from repository: http://download.oracle.com/otn_software/oepe/library/oracle-maf-2.3.1-examples/site.xml。
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 0 2021-06-25 13:51:49.484
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.metadata.repository.simpleRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getHttpClientFactory(Activator.java:241)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getBrowseHttpClient(Activator.java:266)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:249)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:276)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:230)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 0 2021-06-25 13:51:49.485
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.metadata.repository.compositeRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getHttpClientFactory(Activator.java:241)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getBrowseHttpClient(Activator.java:266)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:249)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:276)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:230)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.getLocalFile(CompositeMetadataRepositoryFactory.java:77)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:100)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2021-06-25 13:51:49.488
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Error while reading from repository: http://download.oracle.com/otn_software/oepe/library/oracle-maf-2.3.2-rt/site.xml。
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadActualSiteFile(UpdateSite.java:255)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.load(UpdateSite.java:155)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:108)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:62)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2021-06-25 13:51:49.488
+!MESSAGE Error while reading from repository: http://download.oracle.com/otn_software/oepe/library/oracle-maf-2.3.2-rt/site.xml。
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 0 2021-06-25 13:51:49.489
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.metadata.repository.simpleRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getHttpClientFactory(Activator.java:241)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getBrowseHttpClient(Activator.java:266)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:249)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:276)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:230)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 0 2021-06-25 13:51:49.490
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.metadata.repository.compositeRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getHttpClientFactory(Activator.java:241)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getBrowseHttpClient(Activator.java:266)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:249)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:276)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:230)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.getLocalFile(CompositeMetadataRepositoryFactory.java:77)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:100)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2021-06-25 13:51:49.493
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Error while reading from repository: http://download.oracle.com/otn_software/oepe/library/oracle-maf-2.3.2-examples/site.xml。
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadActualSiteFile(UpdateSite.java:255)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.load(UpdateSite.java:155)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:108)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:62)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2021-06-25 13:51:49.493
+!MESSAGE Error while reading from repository: http://download.oracle.com/otn_software/oepe/library/oracle-maf-2.3.2-examples/site.xml。
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 0 2021-06-25 13:51:49.494
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.metadata.repository.simpleRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getHttpClientFactory(Activator.java:241)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getBrowseHttpClient(Activator.java:266)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:249)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:276)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:230)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 0 2021-06-25 13:51:49.495
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.metadata.repository.compositeRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getHttpClientFactory(Activator.java:241)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getBrowseHttpClient(Activator.java:266)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:249)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:276)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:230)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.getLocalFile(CompositeMetadataRepositoryFactory.java:77)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:100)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2021-06-25 13:51:49.498
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Error while reading from repository: http://download.oracle.com/otn_software/oepe/library/oracle-maf-2.3.3-rt/site.xml。
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadActualSiteFile(UpdateSite.java:255)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.load(UpdateSite.java:155)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:108)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:62)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2021-06-25 13:51:49.498
+!MESSAGE Error while reading from repository: http://download.oracle.com/otn_software/oepe/library/oracle-maf-2.3.3-rt/site.xml。
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 0 2021-06-25 13:51:49.499
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.metadata.repository.simpleRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getHttpClientFactory(Activator.java:241)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getBrowseHttpClient(Activator.java:266)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:249)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:276)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:230)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 0 2021-06-25 13:51:49.500
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.metadata.repository.compositeRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getHttpClientFactory(Activator.java:241)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient45.Activator.getBrowseHttpClient(Activator.java:266)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:249)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:276)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:230)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.getLocalFile(CompositeMetadataRepositoryFactory.java:77)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:100)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2021-06-25 13:51:49.503
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Error while reading from repository: http://download.oracle.com/otn_software/oepe/library/oracle-maf-2.3.3-examples/site.xml。
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadActualSiteFile(UpdateSite.java:255)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.load(UpdateSite.java:155)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:108)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:62)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:127)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:509)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2021-06-25 13:51:49.504
+!MESSAGE Error while reading from repository: http://download.oracle.com/otn_software/oepe/library/oracle-maf-2.3.3-examples/site.xml。
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-06-25 13:51:49.546
+!MESSAGE "サーバー・アダプター一覧のリフレッシュ中" 中に内部エラーが発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.wst.server.discovery.internal.Activator.getStateLocation()" because the return value of "org.eclipse.wst.server.discovery.internal.Activator.getDefault()" is null
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility.getExtensionUpdateSitesDetails(ExtensionUtility.java:228)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility.refreshServerAdapters(ExtensionUtility.java:685)
+	at org.eclipse.wst.server.discovery.Discovery.refreshServerAdapters(Discovery.java:68)
+	at org.eclipse.wst.server.ui.ServerUIUtil$1RefreshJob.run(ServerUIUtil.java:109)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2021-06-26 12:50:20.517 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.1
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/taka2356/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -data /Users/taka2356/LetsEngineer/curriculum/JavaStudy -product org.eclipse.epp.package.jee.product -keyring /Users/taka2356/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2021-06-26 12:50:25.409
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-26 12:50:25.409
+!MESSAGE COMMAND+CTRL+F の競合が発生しました:
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(com.xored.glance.commands.open,Glance を開く,
+		Glance 検索パネルを開く,
+		Category(com.xored.glance.ui.commands,Glance,Glance 検索コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@165824f5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.window.fullscreenmode,全画面の切り替え,
+		全画面と通常のウィンドウを切り替えます,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4511146f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+
+!ENTRY org.eclipse.jface 2 0 2021-06-26 12:50:28.370
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-26 12:50:28.370
+!MESSAGE COMMAND+SHIFT+T の競合が発生しました:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@18372705,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@418f0f27,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-26 12:50:28.370
+!MESSAGE COMMAND+SHIFT+- の競合が発生しました:
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@427946b9,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,ja,,system)
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@427946b9,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2021-06-26 12:50:33.199
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2021-06-26 12:50:33.200
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:23.087
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:23.088
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4cf4b4b3[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=1006)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:23.097
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:23.146
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2021-06-26 12:51:23.446
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-26 12:51:23.446
+!MESSAGE COMMAND+- の競合が発生しました:
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.gef.zoom_out,ズームアウト,
+		ズームアウト,
+		Category(org.eclipse.gef.category.view,ビュー,ビュー,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1b080b41,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.zoomOut,ズームアウト,
+		テキストのズーム・アウト - テキスト・エディターのデフォルト・フォント・サイズを小さくします,
+		Category(org.eclipse.ui.category.textEditor,テキスト編集,テキスト編集コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7b13d53a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(junit.extensions.eclipse.quick.pde.command.PDEJUnitRunAction,JUnit Plug-in テスト,
+		PDE JUnitでテストを実行します．,
+		Category(junit.extensions.eclipse.quick.command.category,Quick JUnit,Quick JUnitアクション,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7affa3fb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.106
+!MESSAGE 起動から初期化までの Boot LS 起動時間: 2998ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.692
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.RsecyJRsisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.699
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.711
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.713
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.714
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.715
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.RsecyJRs => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.720
+!MESSAGE classpath=32 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.720
+!MESSAGE buffering callback sts4.classpath.RsecyJRs MVC_Task false 31
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.721
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.722
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.722
+!MESSAGE buffering callback sts4.classpath.RsecyJRs 2-1 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.723
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.723
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.724
+!MESSAGE buffering callback sts4.classpath.RsecyJRs 2-2 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.724
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.725
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.725
+!MESSAGE buffering callback sts4.classpath.RsecyJRs 2-3 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.725
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.726
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.726
+!MESSAGE buffering callback sts4.classpath.RsecyJRs 2-4 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.726
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.727
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.727
+!MESSAGE buffering callback sts4.classpath.RsecyJRs 2-5 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.728
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.728
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.728
+!MESSAGE buffering callback sts4.classpath.RsecyJRs 2-6 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.729
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.729
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.730
+!MESSAGE buffering callback sts4.classpath.RsecyJRs 4-1 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.730
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.732
+!MESSAGE classpath=30 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.732
+!MESSAGE buffering callback sts4.classpath.RsecyJRs 4-2 false 30
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.733
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.733
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.733
+!MESSAGE buffering callback sts4.classpath.RsecyJRs 4-4 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.734
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.734
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.734
+!MESSAGE buffering callback sts4.classpath.RsecyJRs Check2 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.734
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.736
+!MESSAGE classpath=30 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.736
+!MESSAGE buffering callback sts4.classpath.RsecyJRs Check3 false 30
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.737
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.738
+!MESSAGE classpath=32 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.739
+!MESSAGE buffering callback sts4.classpath.RsecyJRs Check4 false 31
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.739
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.739
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.740
+!MESSAGE buffering callback sts4.classpath.RsecyJRs EmployeeBean.java false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.740
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.741
+!MESSAGE classpath=30 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.742
+!MESSAGE buffering callback sts4.classpath.RsecyJRs HelloServlet false 30
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.742
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.743
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.743
+!MESSAGE buffering callback sts4.classpath.RsecyJRs Project false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.743
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.744
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.744
+!MESSAGE buffering callback sts4.classpath.RsecyJRs chapter1 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.744
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.745
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.745
+!MESSAGE buffering callback sts4.classpath.RsecyJRs demo false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.745
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.747
+!MESSAGE classpath=30 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.747
+!MESSAGE buffering callback sts4.classpath.RsecyJRs jspTest false 30
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:26.747
+!MESSAGE executing callback sts4.classpath.RsecyJRs 19 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:51:27.365
+!MESSAGE executing callback sts4.classpath.RsecyJRs SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-06-26 12:52:26.609
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.ui 2 2 2021-06-26 12:53:09.147
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:55:00.585
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.RsecyJRs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:55:00.585
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.RsecyJRs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:55:00.586
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-26 12:55:00.586
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.RsecyJRs => OK

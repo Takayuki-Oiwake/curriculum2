@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runner version="1.0.0">
+    <category expanded="true" name="カテゴリーなし">
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="4-2"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="ExException"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="MVC_Task"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Tomcat9_Java11"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="ローカルホスト の Tomcat9 (Java11)"/>
+    </category>
+</runner>
